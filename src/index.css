@@ -45,3 +45,6 @@
     background-color: #1abc9c;
     border-radius: 5px;
 }
+footer ul li:hover a{
+    color: #1abc9c !important;
+}

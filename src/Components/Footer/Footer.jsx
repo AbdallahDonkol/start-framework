@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="col-md-4">
                 <h2>AROUND THE WEB</h2>
                 <ul className='list-unstyled d-flex justify-content-center'>
-                    <li className='me-2 p-2  border border-white rounded-5'><i className='fa-fw fa fa-brands fa-facebook fa-lg'></i></li>
-                    <li className='me-2 p-2  border border-white rounded-5'><i className='fa-fw fa fa-brands fa-twitter fa-lg'></i></li>
-                    <li className='me-2 p-2  border border-white rounded-5'><i className='fa-fw fa fa-brands fa-linkedin-in fa-lg'></i></li>
-                    <li className='p-2  border border-white rounded-5'><i className='fa-fw fa-solid fa-globe fa-lg'></i></li>
+                    <li className='me-2 p-2  border border-white rounded-5'><a href="https://facebook.com" className='text-white'><i className='fa-fw fa fa-brands fa-facebook fa-lg'></i></a></li>
+                    <li className='me-2 p-2  border border-white rounded-5'><a href="https://twitter.com" className='text-white'><i className='fa-fw fa fa-brands fa-twitter fa-lg'></i></a></li>
+                    <li className='me-2 p-2  border border-white rounded-5'><a href="https://linkedin.com" className='text-white'><i className='fa-fw fa fa-brands fa-linkedin-in fa-lg'></i></a></li>
+                    <li className='p-2  border border-white rounded-5'><a href="https://wikipedia.com" className='text-white'><i className='fa-fw fa-solid fa-globe fa-lg'></i></a></li>
                 </ul>
             </div>
             <div className="col-md-4">
